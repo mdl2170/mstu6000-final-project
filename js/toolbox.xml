@@ -1,0 +1,10 @@
+<xml xmlns="http://www.w3.org/1999/xhtml" id="toolbox" style="display: none;">
+  <category name="Robot">
+    <block type="robot"></block>
+  </category>
+  <category name="Actions">
+    <block type="move">
+      <field name="direction">left</field>
+    </block>
+  </category>
+</xml>

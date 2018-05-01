@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Game Final Project</title>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CDroid+Serif:400%7CExo:700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="container main-container">
+    <div class="menu">
+      <div class="regular">
+        <div class="title">B2 Bot</div>
+        <div class="stage-block-count" style="right: 50px;">
+          <div class="message">YOU HAVE <span id="block-left">20</span> BLOCKS LEFT</div>
+        </div>
+      </div>
+    </div>
+    <div class="categories">
+      <div id="blocklyDiv" style="height: 715px; width: 620px;"></div>
+    </div>
+    <div class="output">
+
+      <div class="preview">
+        <div class="canvas-container">
+          <div id="girl"></div>
+          <div id="bubble"></div>
+          <div id="bottom-left-arm"></div>
+          <div id="top-left-arm" style="display:none"></div>
+          <div id="bottom-right-arm" style="display:none"></div>
+          <div id="top-right-arm" style="display:none"></div>
+          <div id="top-arm" style="display:none"></div>
+          <!-- <canvas id="svg" width="574" height="524" tabindex="0" style="max-width: 574px; min-width: 574px; max-height: 524px; min-height: 524px; visibility: visible;"></canvas>
+          <div class="canvas-frame"></div> -->
+        </div>
+      </div>
+
+      <div class="action-bar">
+        <div class="stage-text">
+          <button class="btn" type="button" onclick="runJS()">Run</button>
+          <button class="btn" id="btn-reset" type="button" onclick="reset()" disabled>Reset</button>
+          <div class="message">
+            <button type="button" class="stage" style="background: url('assets/level-1.svg') no-repeat"><span>2 HR</span><div class="overlay"></div></button>
+            <button type="button" class="stage" style="background: url('assets/level-2.svg') no-repeat"><span>1.5 HR</span><div class="overlay unselected"></div></button>
+            <button type="button" class="stage" style="background: url('assets/level-3.svg') no-repeat"><span>1 HR</span><div class="overlay unselected"></div></button>
+            <button type="button" class="stage" style="background: url('assets/level-4.svg') no-repeat"><span>0.5 HR</span><div class="overlay unselected"></div></button>
+            <button type="button" class="stage" style="background: url('assets/level-5.svg') no-repeat"><span>15 MIN</span><div class="overlay unselected"></div></button>
+            <p style="color: #ae639c; margin: 0px 0 23px;">until the date</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <xml xmlns="http://www.w3.org/1999/xhtml" id="toolbox" style="display: none;">
+    <category name="Robot">
+      <block type="robot"></block>
+    </category>
+    <category name="Actions">
+      <block type="move">
+        <field name="direction">left</field>
+      </block>
+      <block type="rub"></block>
+      <block type="extend"></block>
+    </category>
+  </xml>
+
+</body>
+
+<script src="library/blockly_compressed.js"></script>
+<script src="library/blocks_compressed.js"></script>
+<script src="library/en.js"></script>
+<script src="library/javascript_compressed.js"></script>
+<script src="library/anime.js"></script>
+<script src="library/acorn_interpreter.js"></script>
+<script src="dist/snap.svg-min.js"></script>
+<script src="js/main.js"></script>
+
+</html>

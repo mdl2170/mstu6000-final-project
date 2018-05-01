@@ -1,0 +1,24 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 232.98 106.69">
+  <title>arm-04</title>
+  <g>
+    <g id="left-arm">
+      <polygon points="141.44 33.31 127.66 41.26 126.95 41.67 126.25 41.26 112.47 33.31 111.76 32.89 111.76 32.08 111.76 16.17 111.76 15.36 112.47 14.95 126.25 6.99 126.95 6.58 127.66 6.99 141.44 14.95 140.03 17.4 126.95 9.85 116.59 16.99 116.59 31.27 126.95 38.4 140.03 30.86 141.44 33.31 141.44 33.31" style="fill:#9ab6ca"/>
+      <polygon points="113.28 26.23 113.28 22.03 79 22.03 79 26.23 113.28 26.23 113.28 26.23" style="fill:#9ab6ca;fill-rule:evenodd"/>
+      <polygon id="extended-part" points="79 29.28 79 18.97 30 18.97 30 29.28" style="fill:#bdcfd8;fill-rule:evenodd"/>
+      <!-- <path d="M51.94,19H47V29.28h7.5l0-.3a16.21,16.21,0,0,0-2.55-10Z" style="fill:#a0bcce;fill-rule:evenodd"/> -->
+      <polygon points="162 30.7 135.35 30.53 135.44 17.36 162.08 17.53 162 30.7 162 30.7" style="fill:#3bc0d9;fill-rule:evenodd"/>
+      <polygon points="162 30.7 135.35 30.53 135.38 25.94 162.03 26.1 162 30.7 162 30.7" style="fill:#1493ab;fill-rule:evenodd"/>
+      <polygon points="162.05 22.76 135.4 22.59 135.42 20.08 162.06 20.25 162.05 22.76 162.05 22.76" style="fill:#56dbed;fill-rule:evenodd"/>
+    </g>
+    <polygon points="30.41 11.28 0 39.13 0 82.04 44.94 27.4 30.41 11.28" style="fill:#375987;fill-rule:evenodd"/>
+    <polygon points="29.39 12.22 0 39.13 0 75.39 41.19 25.31 29.39 12.22" style="fill:#5ec1e2;fill-rule:evenodd"/>
+    <polygon points="32.01 15.14 0 44.45 0 75.39 41.19 25.31 32.01 15.14" style="fill:#0086ba;fill-rule:evenodd"/>
+    <polygon points="0 64.24 0 75.39 7.22 66.62 0 64.24" style="fill:#375987;fill-rule:evenodd"/>
+    <path d="M35.1,7.25A16.3,16.3,0,1,1,17.65,22.32,16.32,16.32,0,0,1,35.1,7.25Z" style="fill:#fcb240;fill-rule:evenodd"/>
+    <path d="M48.67,16.59a16.3,16.3,0,0,1-28.3,16,16.11,16.11,0,0,1-1.49-8.1,16.31,16.31,0,0,1,29.79-7.9Z" style="fill:#f4763c;fill-rule:evenodd"/>
+    <path d="M40.29,18.46A9.43,9.43,0,1,1,27,19.76a9.43,9.43,0,0,1,13.27-1.3Z" style="fill:#e65c31;fill-rule:evenodd"/>
+    <path d="M34.6,14.1a9.44,9.44,0,1,1-10.1,8.72A9.44,9.44,0,0,1,34.6,14.1Z" style="fill:#fff;fill-rule:evenodd"/>
+    <path d="M41.81,18.36a9.43,9.43,0,0,1-14.1,12.26A9.43,9.43,0,0,1,36.3,16.07a9.29,9.29,0,0,1,5.51,2.29Z" style="fill:#9ab6ca;fill-rule:evenodd"/>
+    <path d="M27.1,29.52A9.43,9.43,0,0,1,41.4,18a9.53,9.53,0,0,1,.88,4.74A9.43,9.43,0,0,1,27.1,29.52Z" style="fill:#bdcfd8;fill-rule:evenodd"/>
+  </g>
+</svg>
