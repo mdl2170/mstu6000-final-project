@@ -132,7 +132,7 @@ body {
 .canvas-container {
   background: url('../assets/bathroom.svg') no-repeat;
   width: 100%;
-  height: 58vh;
+  height: 55vh;
   position: relative;
 }
 
